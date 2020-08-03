@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.home{
+    background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url(./img/Doctor-PNG-Image-Transparent.png )no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 180px 0;
+}
+
+.section.doctor img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.carousel-caption h5{
+  color: black;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption p{
+  color: black;
+  font-size: 20px;
+}
+
+.carousel-caption {
+    bottom: 130px;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: 'Merienda', cursive;
+}
+
+.carousel-caption a {
+    text-transform: uppercase;
+    background: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 10px;
+
+
+}
+
+.carousel-caption p {
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: poppins;
+
+}
+
+section.doctor img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+
+hr{
+    width: 10%;
+    border-width: 4px;
+    background-color: brown;
+    margin: auto;
+    margin-bottom: 80px;
+}
+section.doctor .card{
+    -webkit-box-shadow: 3px 2px 24px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 2px 24px -6px rgba(0,0,0, 0.75);
+    box-shadow: 3px 2px 24px -6px rgba(0,0,0,0.75);
+}
+.fas{
+    color: palevioletred;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.contact{
+    background:linear-gradient(rgba(246, 4, 65, 0.685), rgba(136, 66, 72, 0.65)),   url(https://st2.depositphotos.com/1518767/8173/i/950/depositphotos_81734928-stock-photo-doctor-looking-at-camera.jpg)no-repeat;
+    background-size: 100% 100%;
+
+}
+
+/* REMOVE THIS, USE YOUR OWN  */
+
+  .dummy_page {
+    height: 200px;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px 0px;
+  }
+  /* STYLES SPECIFIC TO FOOTER  */
+  .footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #070617;
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255,255,255,0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+  @media only screen and (min-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }
